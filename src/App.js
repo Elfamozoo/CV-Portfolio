@@ -24,9 +24,8 @@ const App = () => {
                 <About />
                 <Work />
                 <Skills />
-                <Testimonial />
                 <Footer />
-                {new Darkmode(options).showWidget()}              
+                {new Darkmode(options).showWidget()}
             </div>
         </>
     )
