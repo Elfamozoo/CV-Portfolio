@@ -91,7 +91,7 @@ const Footer = () => {
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>
-            {!loading ? "Message envoyé" : "Envoi..."}
+            {!loading ? "Envoyer Message" : "Envoi..."}
           </button>
         </div>
       ) : (
