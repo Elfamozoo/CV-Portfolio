@@ -22,6 +22,8 @@ const Skills = () => {
     });
   }, []);
 
+  experiences.sort((a, b) => (a.year < b.year ? 1 : -1));
+
   return (
     <>
       <h2 className="head-text">Skills & Experiences</h2>
@@ -85,7 +87,7 @@ const Skills = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Skills, 'app__skills'),
-  'skills',
-  'app__whitebg',
+  MotionWrap(Skills, "app__skills"),
+  "skills",
+  "app__whitebg"
 );
