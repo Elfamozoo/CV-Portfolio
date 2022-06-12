@@ -16,9 +16,9 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Je sais que <span>Des bon projets</span>
+        A propos <span>de moi</span>
         <br />
-        C'est du <span>Bon business</span>
+        Mes <span>compétences</span>
       </h2>
 
       <div className="app__profiles">
